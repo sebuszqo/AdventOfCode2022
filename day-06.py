@@ -21,6 +21,6 @@ def findingFirstMessage():
             return readedFile[i:i+14], i+14
 
 answerPart1 = findingFristMarker()
-print(f"Answer to part 1 day-0: {answerPart1[1]}")
+print(f"Answer to part 1 day-06: {answerPart1[1]}")
 answerPart2 = findingFirstMessage()
-print(f"Answer to part 2 day-03: {answerPart2[1]}")
+print(f"Answer to part 2 day-06: {answerPart2[1]}")
