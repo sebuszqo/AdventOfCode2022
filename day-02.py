@@ -14,7 +14,7 @@
 
 
 # getting data
-with open("input-02.in") as file:
+with open("./data-inputs/input-02.in") as file:
     rounds = [i for i in file.read().strip().split("\n")]
 
 
@@ -75,4 +75,4 @@ for round in rounds:
 
 
 print(f"Answer to part 1 day-02: {mySumOfPointsPart1}")
-print(f"Answer to part 1 day-02: {mySumOfPointsPart2}")
+print(f"Answer to part 2 day-02: {mySumOfPointsPart2}")

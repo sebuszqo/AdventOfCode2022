@@ -1,6 +1,6 @@
 
 # getting data
-with open("input-01.in") as file:
+with open("./data-inputs/input-01.in") as file:
     data = [i for i in file.read().strip().split("\n")]
     # print(data)
 

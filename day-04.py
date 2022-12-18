@@ -1,5 +1,5 @@
 # getting data
-with open("input-04.in") as file:
+with open("./data-inputs/input-04.in") as file:
     pairs = [i for i in file.read().strip().split("\n")]
 
 
@@ -30,7 +30,7 @@ for pair in pairs:
         counterSecondPart +=1
 
 
-print(f"Answer to part 1 day-03: {counterFirstPart}")
-print(f"Answer to part 2 day-03: {counterSecondPart}")
+print(f"Answer to part 1 day-04: {counterFirstPart}")
+print(f"Answer to part 2 day-04: {counterSecondPart}")
 
 

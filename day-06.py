@@ -1,5 +1,5 @@
 # getting my data from file
-with open("input-06.in") as file:
+with open("./data-inputs/input-06.in") as file:
     readedFile = file.read().strip()
 
 # I used sets to findout when some combination of chars is unique 

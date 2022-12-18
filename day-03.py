@@ -1,6 +1,6 @@
 from collections import Counter
 
-with open("input-03.in") as file:
+with open("./data-inputs/input-03.in") as file:
     things = [i for i in file.read().strip().split("\n")]
 
 # my aphabet with points

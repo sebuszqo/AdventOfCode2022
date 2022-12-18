@@ -1,6 +1,6 @@
 # with open("input-08.in") as file:
 #     trees = [i for i in file.read().strip().split("\n")]
-with open("input-08.in") as file:
+with open("./data-inputs/input-08.in") as file:
     trees = [i for i in file.read().strip().split("\n")]
 
 # print(trees)
@@ -59,4 +59,4 @@ for row in range(1,visibleRows-1):
     
 # --------- ANSWERS ---------
 print(f"Answer to part 1 day-08: {total}")
-print(f"Answer to part 2 day-07: {max(scores)}")
+print(f"Answer to part 2 day-08: {max(scores)}")

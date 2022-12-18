@@ -1,6 +1,6 @@
 
 # here I'm getting data - I have 2 parts of file first with crates second with instructions
-with open("input-05.in") as f:
+with open("./data-inputs/input-05.in") as f:
     stack_strings, instructions = (i.splitlines() for i in f.read().strip("\n").split("\n\n"))
 
 # here I'm making a dict whre keys are numbers 1, 3, 4, 5, etc and values will be my crates
@@ -82,6 +82,6 @@ for instruction in instructions:
         stacks[to_stack].append(crate) #adding these crates to final stack
 answerPart2 = getEndOfStack()
 
-print(f"Answer to part 1 day-03: {answerPart1}")
-print(f"Answer to part 2 day-03: {answerPart2}")
+print(f"Answer to part 1 day-05: {answerPart1}")
+print(f"Answer to part 2 day-05: {answerPart2}")
 

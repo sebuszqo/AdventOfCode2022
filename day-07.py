@@ -1,4 +1,4 @@
-with open("input-07.in") as file:
+with open("./data-inputs/input-07.in") as file:
     commands = [i for i in file.read().strip().split("\n")]
 
 # --------- PART 1 ---------
