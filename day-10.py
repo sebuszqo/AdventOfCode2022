@@ -74,10 +74,10 @@ for row in range(6):
         else:
             ans[row][col] = "  "
 
-for row in ans:
-    print("".join(row))
-
 
 # ---------- ANSWERS ----------
 print(f"Answer to part 1 day-10: {singal_strengths_sum}")
-# print(f"Answer to part 2 day-10: {answerPart2}")
+print(f"Answer to part 2 day-10:")
+for row in ans:
+    print("".join(row))
+
