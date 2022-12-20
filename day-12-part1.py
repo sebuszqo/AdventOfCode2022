@@ -4,6 +4,7 @@ from heapq import heappop, heappush
 with open('./data-inputs/input-12.in') as file:
     lines = file.read().strip().split()
     
+# ---------- PART 1 ----------
 
 grid = [list(line) for line in lines]
 n = len(grid)
@@ -42,8 +43,6 @@ def neighbors(i,j):
         if height(grid[ii][jj]) <= height(grid[i][j]) + 1:
             yield ii, jj
 
-# ---------- PART 1 ----------
-
 visited = [[False]* m for _ in range(n)]
 # heap that contains costs that we have to pay to achive point and this point
 # "sorted all the time"
@@ -65,4 +64,3 @@ while True:
 
 # ---------- ANSWERS ----------
 print(f"Answer to part 1 day-12: {steps}")
-# print(f"Answer to part 2 day-10: {answer_part_2}")
